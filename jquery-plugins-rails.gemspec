@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.summary       = %q{jQuery plugins for Rails 3.x asset pipeline}
   gem.homepage      = "https://github.com/zenops/jquery-plugins-rails"
 
-  gem.add_dependency "railties", "~> 3.0"
+  gem.add_dependency "railties", "> 3.0"
   gem.add_dependency "jquery-rails"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
