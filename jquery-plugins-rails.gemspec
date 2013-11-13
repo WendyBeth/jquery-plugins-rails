@@ -1,9 +1,8 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/jquery-plugins/rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.name          = "jquery-plugins-rails"
-  gem.version       = JqueryPlugins::Rails::VERSION
+  gem.version       = "0.2"
   gem.authors       = ["Benedikt Böhm"]
   gem.email         = ["bb@xnull.de"]
   gem.description   = %q{jQuery plugins for Rails 3.x asset pipeline}
