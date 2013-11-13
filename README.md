@@ -1,6 +1,6 @@
 # JqueryPlugins::Rails
 
-TODO: Write a gem description
+This gem includes some jquery plugins so that they can be used with the rails asset pipeline.
 
 ## Installation
 
@@ -15,10 +15,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install jquery-plugins-rails
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
