@@ -2,12 +2,13 @@
 
 Gem::Specification.new do |gem|
   gem.name          = "jquery-plugins-rails"
-  gem.version       = "0.2"
+  gem.version       = "0.2.1"
   gem.authors       = ["Benedikt Böhm"]
   gem.email         = ["bb@xnull.de"]
   gem.description   = %q{jQuery plugins for Rails 3.x asset pipeline}
   gem.summary       = %q{jQuery plugins for Rails 3.x asset pipeline}
   gem.homepage      = "https://github.com/zenops/jquery-plugins-rails"
+  gem.license       = "MIT"
 
   gem.add_dependency "railties", "> 3.0"
   gem.add_dependency "jquery-rails"
